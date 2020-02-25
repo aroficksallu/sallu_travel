@@ -242,7 +242,7 @@ a:hover {
 }
 
 a {
-    color: #FE8800;
+    color: #029e36;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -251,7 +251,7 @@ a {
 }
 
 a:hover {
-    color: #E37900;
+    color: #029e36;
     text-decoration: none;
 }
 
@@ -1891,7 +1891,7 @@ ul.list-yes-no li:before {
     top: 1px;
     left: 0;
     font-size: 24px;
-    color: #FE8800;
+    color: #029e36;
 }
 
 ul.list-yes-no li.no {
@@ -3278,8 +3278,8 @@ h5.section-title {
 }
 
 .btn-primary:hover {
-    background: #E37900;
-    border-color: #E37900;
+    background: #029e36;
+    border-color: #029e36;
 }
 
 .btn-info {

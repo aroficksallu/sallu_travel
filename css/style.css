@@ -2183,7 +2183,7 @@ ul.featured-list-with-h.no-last-bb li:last-child {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(254, 136, 0, 0.85);
+    background: #029e36;
 }
 
 .user-item-01 .user-item-inner {
@@ -3423,7 +3423,7 @@ ul.review-list li .review-replied-header {
 }
 
 a.review-load-more {
-    background: rgba(254, 136, 0, 0.6);
+    background: #029e36;
     color: #FFF;
     text-align: center;
     display: block;
