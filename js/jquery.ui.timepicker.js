@@ -1,42 +1,4 @@
-/*
- * jQuery UI Timepicker
- *
- * Copyright 2010-2013, Francois Gelinas
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://fgelinas.com/code/timepicker
- *
- * Depends:
- *	jquery.ui.core.js
- *  jquery.ui.position.js (only if position settings are used)
- *
- * Change version 0.1.0 - moved the t-rex up here
- *
-                                                  ____
-       ___                                      .-~. /_"-._
-      `-._~-.                                  / /_ "~o\  :Y
-          \  \                                / : \~x.  ` ')
-           ]  Y                              /  |  Y< ~-.__j
-          /   !                        _.--~T : l  l<  /.-~
-         /   /                 ____.--~ .   ` l /~\ \<|Y
-        /   /             .-~~"        /| .    ',-~\ \L|
-       /   /             /     .^   \ Y~Y \.^>/l_   "--'
-      /   Y           .-"(  .  l__  j_j l_/ /~_.-~    .
-     Y    l          /    \  )    ~~~." / `/"~ / \.__/l_
-     |     \     _.-"      ~-{__     l  :  l._Z~-.___.--~
-     |      ~---~           /   ~~"---\_  ' __[>
-     l  .                _.^   ___     _>-y~
-      \  \     .      .-~   .-~   ~>--"  /
-       \  ~---"            /     ./  _.-'
-        "-.,_____.,_  _.--~\     _.-~
-                    ~~     (   _}       -Row
-                           `. ~(
-                             )  \
-                            /,`--'~\--'~\
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                             ->T-Rex<-
-*/
+
 
 (function ($) {
 
@@ -45,10 +7,6 @@
     var PROP_NAME = 'timepicker',
         tpuuid = new Date().getTime();
 
-    /* Time picker manager.
-    Use the singleton instance of this class, $.timepicker, to interact with the time picker.
-    Settings for (groups of) time pickers are maintained in an instance object,
-    allowing multiple different settings on the same page. */
 
     function Timepicker() {
         this.debug = true; // Change this to true to start debugging

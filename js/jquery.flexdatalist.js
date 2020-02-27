@@ -1,20 +1,4 @@
-/**
- * jQuery Flexdatalist.
- * Autocomplete for input fields, with support for datalists.
- *
- * Version:
- * 1.9.1
- *
- * Depends:
- * jquery.js 1.7+
- *
- * Demo and Documentation:
- * http://projects.sergiodinislopes.pt/flexdatalist/
- *
- * Github:
- * https://github.com/sergiodlopes/jquery-flexdatalist/
- *
- */
+
 
 jQuery.fn.flexdatalist = function (options, value) {
     'use strict';
